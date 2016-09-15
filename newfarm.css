@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+
+.header {
+  height: 10%;
+  width: 70%;
+  top: 2%;
+  left: 25%;
+  position: absolute;
+  background-color: brown;
+}
+
+.navBar {
+  top: 2%;
+  left: 2%;
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  background-color: tan;
+}
+
+.navBox {
+  left: 4%;
+  height: 10%;
+  width: 16%;
+  position: fixed;
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 15px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#navBox1 {
+  top: 14%;
+}
+
+#navBox2 {
+  top: 26%;
+}
+
+#navBox3 {
+  top: 38%;
+}
+
+#navBox4 {
+  top: 50%;
+}
+
+#navBox5 {
+  top: 62%;
+}
+
+.content {
+  top: 14%;
+  left: 25%;
+  height: 100%;
+  width: 70%;
+  position: absolute;
+  background-color: yellow;
+}

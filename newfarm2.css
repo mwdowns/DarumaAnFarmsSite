@@ -1,0 +1,100 @@
+body {
+  background-color: #915a36;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.navBar {
+  width: 20%;
+  height: 94.5vh;
+  position: fixed;
+  float: left;
+  background-color: #82b472;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+
+.navBox {
+  width: 16%;
+  height: 70px;
+  position: fixed;
+  left: 2.5%;
+  background-color: #56887e;
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+  font-size: 2em;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+#navBox1 {
+  top: 5%;
+}
+
+#navBox2 {
+  /*top: 125px;*/
+  top: 20%;
+}
+
+#navBox3 {
+  /*top: 225px;*/
+  top: 35%;
+}
+
+#navBox4 {
+  /*top: 325px;*/
+  top: 50%;
+}
+
+#navBox5 {
+  /*top: 425px;*/
+  top: 65%;
+}
+
+.header {
+  width: 78%;
+  float: right;
+  background-color: #82b472;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.content {
+  width: 78%;
+  float: right;
+  background-color: #82b472;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.copyright {
+  width: 78%;
+  float: right;
+  background-color: #82b472;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+img {
+  border-radius: 5px;
+  max-width: 98%;
+}
+
+.floatRight {
+  float: right;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.pLink, .pLink:visited {
+  color: red;
+}

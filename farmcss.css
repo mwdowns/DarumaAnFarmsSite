@@ -1,0 +1,174 @@
+* {
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: white;
+	/*background: #95954a;*/
+	background: #915a36;
+}
+
+/* This makes sure the links don't have an underline or
+	change color once visited.
+*/
+a, a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* This is an class for links that are not on the navbar.
+	I want these links to always appear read in the text.
+*/
+.pLink, .pLink:visited {
+	color: red;
+}
+
+/* This makes images have a rounded border.
+*/
+img {
+	border-radius: 5px;
+	max-width: 100%;
+	height: auto;
+}
+
+.imgRight {
+	float: right;
+}
+
+div {
+	border-radius: 5px;
+}
+
+/* This is the header ID. I would like a static pic to go here,
+	centered, and stuck at the top. Right now I just have a block header
+	as a place holder.
+*/
+#header {
+	height: 275px;
+	width: 83%;
+  left: 15%;
+  /*position: absolute;*/
+	/*background-color: #965d4a;*/
+	background-color: #82b472;
+	/*background: url("images/logo4.jpg") no-repeat center top;*/
+	margin: 5px auto 5px 0;
+	float: right;
+}
+
+/*	This is the navbar, which will contain the navigation buttons.
+	I want it to be long enough to contain all the buttons and
+	have a bit of empty space on the bottom.
+*/
+#navBar {
+	height: 100%;
+	width: 15%;
+	/*background-color: #965d4a;*/
+	background-color: #82b472;
+	position: absolute;
+	margin: 5px 0 5px auto;
+	/*float: left;*/
+}
+
+/* 	This is the CSS for the "buttons" in the nav bar.
+	I want them to stay on the page when the user scrolls.
+	I have separated the common elements into the .inner class
+	and put the unique elements into the IDs.
+*/
+.inner {
+	height: 50px;
+	width: 14%;
+	position: fixed;
+	margin-left: 6px;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 2em;
+	background-color: #56887e;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#inner1 {
+	margin-top: 5px;
+}
+
+#inner1Jp {
+	margin-top: 5px;
+	padding-top: 2px;
+}
+
+#inner2 {
+	margin-top: 75px;
+}
+
+#inner2Jp {
+	margin-top: 75px;
+	font-size: 1.5em;
+	padding-top: 8px;
+}
+
+#inner3 {
+	margin-top: 145px;
+}
+
+#inner3Jp {
+	margin-top: 145px;
+	padding-top: 2px;
+}
+
+
+#inner4 {
+	margin-top: 215px;
+}
+
+#inner4Jp {
+	margin-top: 215px;
+	padding-top: 2px;
+}
+
+
+#inner5 {
+	margin-top: 285px;
+}
+
+/*	This is the content area. Will have the content of the site.
+	I would like this to contain all the content with no extra space
+	at the bottom for large content areas, such as the about page
+	or the shop page. But I don't mind it having some extra space
+	at the bottom for the low content pages, like contact.
+*/
+#content {
+	/*height: 100%;*/
+	max-width: 83%;
+  top: 300px;
+  left: 15%;
+  /*position: absolute;*/
+	float: right;
+	/*background-color: #965d4a;*/
+	background-color: #82b472;
+	margin: 5px auto 5px 0;
+	/*padding: 10px 10px 10px 10px;*/
+}
+
+.writing {
+	padding: 0 70px 0 70px;
+}
+
+/*	This is the copyright section. I want this at the bottom of every
+	page. Small type, centered.
+*/
+#copyright {
+	width: 83%;
+	height: 20px;
+  left: 15%;
+  top: 100%;
+	/*background-color: #965d4a;*/
+	background-color: #82b472;
+	font-size: .7em;
+	text-align: center;
+	margin: 5px auto 5px 0;
+	padding-top: 2px;
+  float: right;
+}

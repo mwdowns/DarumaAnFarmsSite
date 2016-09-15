@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<link type="text/css" rel="stylesheet" href="farmcss.css"/>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+		<script type="text/javascript" src="farmscript.js"></script>
+		<title>Daruma An Farms</title>
+	</head>
+	<body>
+		<div id="header"><img style="margin: 9px auto 11px auto; display:block" src="images/logo4.jpg" /></div>
+		<div id="navBar">
+		    <div class="inner" id="inner1"><a href="index.html">Home</a></div>
+		    <div class="inner" id="inner2"><a href="about.html">About</a></div>
+		    <div class="inner" id="inner3"><a href="shop.html">Shop</a></div>
+		    <div class="inner" id="inner4"><a href="contact.html">Contact</a></div>
+		    <div class="inner" id="inner5"><a href="index-jp.html">日本語</a></div>
+		</div>
+		<div id="content"></div>
+		<div id="copyright">Copyright</div>
+	</body>
+</html>
